@@ -44,11 +44,11 @@ How long the system has been running, number of users, load averages.
 
 ```bash
  14:22:31 up 3 days,  5:17,  2 users,  load average: 0.01, 0.03, 0.00
-
+```
 up 3 days: Uptime
 2 users: Logged-in users
 load average: CPU load in 1, 5, 15 minutes
-```
+
 ---
 
 ### 4. `whoami`
@@ -178,12 +178,11 @@ Live process monitoring (CPU/mem per process).
 
 **🔧 Sample Output:**
 
-```bash
 %CPU, %MEM: Resource usage
 PID: Process ID
 TIME+: Total CPU time
 Tasks, load average, Mem, Swap: Summary at top
-```
+
 ---
 
 ### 13. `htop`
@@ -200,13 +199,10 @@ Kernel ring buffer logs (boot messages, hardware detection).
 
 **🔧 Sample Output:**
 
-```bash
-
 Common entries:
 [ 0.000000] Linux version...
 Detected CPU...
 eth0: Link is up...
-```
 ---
 
 ### 15. `lsblk`
