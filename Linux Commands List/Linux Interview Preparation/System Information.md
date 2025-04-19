@@ -15,7 +15,8 @@ Linux server1 5.15.0-101-generic #1 SMP Mon Jan 1 00:00:00 UTC 2024 x86_64 GNU/L
 ### 2. `hostnamectl`
 
 **Description:**  
-Shows: Detailed system info including hostname, OS, kernel, and architecture.
+Detailed system info including hostname, OS, kernel, and architecture.
+
 ---
 
 **🔧 Sample Output:**
@@ -54,6 +55,7 @@ load average: CPU load in 1, 5, 15 minutes
 
 **Description:**  
 Shows: Current logged-in user.
+
 ---
 
 **🔧 Sample Output:**
@@ -67,6 +69,7 @@ admin
 
 **Description:**  
 Shows: User ID, group ID, and groups of current user.
+
 ---
 
 **🔧 Sample Output:**
@@ -80,6 +83,7 @@ uid=1000(admin) gid=1000(admin) groups=1000(admin),27(sudo)
 
 **Description:**  
 Shows: Distribution-specific information.
+
 ---
 
 **🔧 Sample Output:**
@@ -96,6 +100,7 @@ Codename:       jammy
 
 **Description:**  
 Shows: OS metadata (standard across distros).
+
 ---
 
 **🔧 Sample Output:**
@@ -112,6 +117,7 @@ PRETTY_NAME="Ubuntu 22.04.4 LTS"
 
 **Description:**  
 Shows: CPU architecture (same as uname -m).
+
 ---
 
 **🔧 Sample Output:**
@@ -137,6 +143,7 @@ Threads per core, Cores per socket, etc.
 
 **Description:**  
 Shows: RAM and swap usage in human-readable form.
+
 ---
 
 **🔧 Sample Output:**
@@ -151,6 +158,7 @@ Swap:          2Gi         0Gi         2Gi
 
 **Description:**  
 Shows: Memory, swap, I/O, CPU stats.
+
 ---
 
 **🔧 Sample Output:**
@@ -166,6 +174,7 @@ procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
 
 **Description:**  
 Shows: Live process monitoring (CPU/mem per process).
+
 ---
 
 **🔧 Sample Output:**
@@ -187,6 +196,7 @@ Like top, but user-friendly with colors, graphs, and easier navigation.
 
 **Description:**  
 Shows: Kernel ring buffer logs (boot messages, hardware detection).
+
 ---
 
 **🔧 Sample Output:**
@@ -204,6 +214,7 @@ eth0: Link is up...
 
 **Description:**  
 Shows: Block devices (disks, partitions) in a tree view.
+
 ---
 
 **🔧 Sample Output:**
@@ -220,6 +231,7 @@ sda      8:0    0   50G  0 disk
 
 **Description:**  
 Shows: PCI devices (network cards, GPUs, etc).
+
 ---
 
 **🔧 Sample Output:**
@@ -233,6 +245,7 @@ Shows: PCI devices (network cards, GPUs, etc).
 
 **Description:**  
 Shows: Connected USB devices.
+
 ---
 
 **🔧 Sample Output:**
@@ -246,6 +259,7 @@ Bus 002 Device 003: ID 046d:c534 Logitech USB Receiver
 
 **Description:**  
 Shows: Mounted filesystem space usage.
+
 ---
 
 **🔧 Sample Output:**
@@ -260,6 +274,7 @@ Filesystem      Size  Used Avail Use% Mounted on
 
 **Description:**  
 Shows: Disk usage per file/directory in current folder.
+
 ---
 
 **🔧 Sample Output:**
@@ -275,6 +290,7 @@ Shows: Disk usage per file/directory in current folder.
 
 **Description:**  
 Shows: Pretty format uptime.
+
 ---
 
 **🔧 Sample Output:**
@@ -288,6 +304,7 @@ up 3 days, 5 hours, 22 minutes
 
 **Description:**  
 Shows: System start time.
+
 ---
 
 **🔧 Sample Output:**
@@ -301,6 +318,7 @@ Shows: System start time.
 
 **Description:**  
 Shows: Logged-in users.
+
 ---
 
 **🔧 Sample Output:**
@@ -314,6 +332,7 @@ admin   pts/0   2025-04-19 10:00 (10.0.2.2)
 
 **Description:**  
 Shows: Who is logged in and what they are doing.
+
 ---
 
 **🔧 Sample Output:**
@@ -327,6 +346,7 @@ Includes idle time, current command, login time.
 
 **Description:**  
 Shows: History of logins.
+
 ---
 
 **🔧 Sample Output:**
@@ -340,6 +360,7 @@ admin  pts/0  10.0.2.2  Fri Apr 19 10:00   still logged in
 
 **Description:**  
 Shows: Current date and time.
+
 ---
 
 **🔧 Sample Output:**
@@ -353,6 +374,7 @@ Fri Apr 19 14:25:17 IST 2025
 
 **Description:**  
 Shows: Time settings and synchronization status.
+
 ---
 
 **🔧 Sample Output:**
@@ -369,6 +391,7 @@ NTP enabled: yes
 
 **Description:**  
 Shows: Calendar of current month.
+
 ---
 
 **🔧 Sample Output:**
@@ -388,6 +411,7 @@ Su Mo Tu We Th Fr Sa
 **Description:**  
 Repeats a command at intervals (default: 2s).
 Example:
+
 ---
 
 **🔧 Sample Output:**
@@ -401,6 +425,7 @@ watch -n 5 df -h
 
 **Description:**  
 Shows: Kernel version.
+
 ---
 
 **🔧 Sample Output:**
@@ -414,6 +439,7 @@ Shows: Kernel version.
 
 **Description:**  
 Shows: CPU and I/O usage statistics.
+
 ---
 
 **🔧 Sample Output:**
