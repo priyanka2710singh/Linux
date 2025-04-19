@@ -36,7 +36,7 @@ Detailed system info including hostname, OS, kernel, and architecture.
 ### 3. `uptime`
 
 **Description:**  
-Shows: How long the system has been running, number of users, load averages.
+How long the system has been running, number of users, load averages.
 
 ---
 
@@ -54,7 +54,7 @@ load average: CPU load in 1, 5, 15 minutes
 ### 4. `whoami`
 
 **Description:**  
-Shows: Current logged-in user.
+Current logged-in user.
 
 ---
 
@@ -68,7 +68,7 @@ admin
 ### 5. `id`
 
 **Description:**  
-Shows: User ID, group ID, and groups of current user.
+User ID, group ID, and groups of current user.
 
 ---
 
@@ -82,7 +82,7 @@ uid=1000(admin) gid=1000(admin) groups=1000(admin),27(sudo)
 ### 6. `lsb_release -a`
 
 **Description:**  
-Shows: Distribution-specific information.
+Distribution-specific information.
 
 ---
 
@@ -99,7 +99,7 @@ Codename:       jammy
 ### 7. `cat /etc/os-release`
 
 **Description:**  
-Shows: OS metadata (standard across distros).
+OS metadata (standard across distros).
 
 ---
 
@@ -116,7 +116,7 @@ PRETTY_NAME="Ubuntu 22.04.4 LTS"
 ### 8. `arch`
 
 **Description:**  
-Shows: CPU architecture (same as uname -m).
+CPU architecture (same as uname -m).
 
 ---
 
@@ -130,8 +130,7 @@ x86_64
 ### 9. `lscpu`
 
 **Description:**  
-Shows: Detailed CPU info.
-
+Detailed CPU info.
 
 Key fields:
 Architecture: x86_64
@@ -142,7 +141,7 @@ Threads per core, Cores per socket, etc.
 ### 10. free -h
 
 **Description:**  
-Shows: RAM and swap usage in human-readable form.
+RAM and swap usage in human-readable form.
 
 ---
 
@@ -157,7 +156,7 @@ Swap:          2Gi         0Gi         2Gi
 ### 11. `vmstat`
 
 **Description:**  
-Shows: Memory, swap, I/O, CPU stats.
+Memory, swap, I/O, CPU stats.
 
 ---
 
@@ -173,7 +172,7 @@ procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
 ### 12. `top`
 
 **Description:**  
-Shows: Live process monitoring (CPU/mem per process).
+Live process monitoring (CPU/mem per process).
 
 ---
 
@@ -195,7 +194,7 @@ Like top, but user-friendly with colors, graphs, and easier navigation.
 ### 14. `dmesg`
 
 **Description:**  
-Shows: Kernel ring buffer logs (boot messages, hardware detection).
+Kernel ring buffer logs (boot messages, hardware detection).
 
 ---
 
@@ -213,7 +212,7 @@ eth0: Link is up...
 ### 15. `lsblk`
 
 **Description:**  
-Shows: Block devices (disks, partitions) in a tree view.
+Block devices (disks, partitions) in a tree view.
 
 ---
 
@@ -230,7 +229,7 @@ sda      8:0    0   50G  0 disk
 ### 16. `lspci`
 
 **Description:**  
-Shows: PCI devices (network cards, GPUs, etc).
+PCI devices (network cards, GPUs, etc).
 
 ---
 
@@ -244,7 +243,7 @@ Shows: PCI devices (network cards, GPUs, etc).
 ### 17. `lsusb`
 
 **Description:**  
-Shows: Connected USB devices.
+Connected USB devices.
 
 ---
 
@@ -258,7 +257,7 @@ Bus 002 Device 003: ID 046d:c534 Logitech USB Receiver
 ### 18. `df -h`
 
 **Description:**  
-Shows: Mounted filesystem space usage.
+Mounted filesystem space usage.
 
 ---
 
@@ -273,7 +272,7 @@ Filesystem      Size  Used Avail Use% Mounted on
 ### 19. `du -sh *`
 
 **Description:**  
-Shows: Disk usage per file/directory in current folder.
+Disk usage per file/directory in current folder.
 
 ---
 
@@ -289,7 +288,7 @@ Shows: Disk usage per file/directory in current folder.
 ### 20. `uptime -p`
 
 **Description:**  
-Shows: Pretty format uptime.
+Pretty format uptime.
 
 ---
 
@@ -303,7 +302,7 @@ up 3 days, 5 hours, 22 minutes
 ### 21. `uptime -s`
 
 **Description:**  
-Shows: System start time.
+System start time.
 
 ---
 
@@ -317,7 +316,7 @@ Shows: System start time.
 ### 22. `who`
 
 **Description:**  
-Shows: Logged-in users.
+Logged-in users.
 
 ---
 
@@ -331,7 +330,7 @@ admin   pts/0   2025-04-19 10:00 (10.0.2.2)
 ### 23. `w`
 
 **Description:**  
-Shows: Who is logged in and what they are doing.
+Who is logged in and what they are doing.
 
 ---
 
@@ -345,7 +344,7 @@ Includes idle time, current command, login time.
 ### 24. `last`
 
 **Description:**  
-Shows: History of logins.
+History of logins.
 
 ---
 
@@ -359,7 +358,7 @@ admin  pts/0  10.0.2.2  Fri Apr 19 10:00   still logged in
 ### 25. `date`
 
 **Description:**  
-Shows: Current date and time.
+Current date and time.
 
 ---
 
@@ -373,7 +372,7 @@ Fri Apr 19 14:25:17 IST 2025
 ### 26. `timedatectl`
 
 **Description:**  
-Shows: Time settings and synchronization status.
+Time settings and synchronization status.
 
 ---
 
@@ -390,7 +389,7 @@ NTP enabled: yes
 ### 27. `cal`
 
 **Description:**  
-Shows: Calendar of current month.
+Calendar of current month.
 
 ---
 
@@ -424,7 +423,7 @@ watch -n 5 df -h
 ### 29. `uname -r`
 
 **Description:**  
-Shows: Kernel version.
+Kernel version.
 
 ---
 
@@ -438,7 +437,7 @@ Shows: Kernel version.
 ### 30. `iostat`
 
 **Description:**  
-Shows: CPU and I/O usage statistics.
+CPU and I/O usage statistics.
 
 ---
 
