@@ -1,15 +1,15 @@
 ### 1. `uname -a`
-Shows: Kernel name, hostname, kernel version, architecture.
 
-Sample Output:
+**Description:**  
+Displays all available system information including the kernel name, version, hostname, and architecture.
+
+---
+
+**🔧 Sample Output:**
+
+```bash
 Linux server1 5.15.0-101-generic #1 SMP Mon Jan 1 00:00:00 UTC 2024 x86_64 GNU/Linux
 
-Linux: Kernel name
-server1: Hostname
-5.15.0-101-generic: Kernel version
-#1 SMP ...: Build details
-x86_64: Architecture
-GNU/Linux: OS type
 
 ### 2. `hostnamectl`
 Shows: Detailed system info including hostname, OS, kernel, and architecture.
