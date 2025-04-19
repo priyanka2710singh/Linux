@@ -1,4 +1,4 @@
-1. uname -a
+### 1. `uname -a`
 Shows: Kernel name, hostname, kernel version, architecture.
 
 Sample Output:
@@ -11,7 +11,7 @@ server1: Hostname
 x86_64: Architecture
 GNU/Linux: OS type
 
-2. hostnamectl
+### 2. `hostnamectl`
 Shows: Detailed system info including hostname, OS, kernel, and architecture.
 Sample Output:
    Static hostname: server1
